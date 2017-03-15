@@ -6,13 +6,16 @@ pull updates before making changes
 
 ```git pull origin master```
 
+
 pull updates from the origin's master repo, put your changes on top of master's
 
 ```git pull --rebase origin master```
 
+
 view the state of the repo
 
 ```git status``` 
+
 
 stage changes (examples) (use this to group changes)
 
@@ -22,17 +25,21 @@ stage changes (examples) (use this to group changes)
 
 ```git add <filename>```
 
+
 make the commit
 
 ```git commit -m "this is a message"```
+
 
 Push commits to the central repository
 
 ```git push origin master```
 
+
 This will add deletes as well.
 
 ```git add -u .```
+
 
 Remove a directory and contents
 Dont remove it from the command line, let git remove it
