@@ -17,7 +17,9 @@ view the state of the repo
 stage changes (examples) (use this to group changes)
 
 ```git add .```
+
 ```git add <directory>```
+
 ```git add <filename>```
 
 make the commit
